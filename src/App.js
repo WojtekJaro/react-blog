@@ -6,12 +6,16 @@ import ContactPage from './pages/ContactPage/ContactPage';
 function App() {
   return (
     
+
+
     <BrowserRouter>
+      
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/blog/:title" element={<PostPage/>}/>
         <Route path="/contact" element={<ContactPage/>}/>
       </Routes>
+      <PostPage/>
     
     </BrowserRouter>
   );
