@@ -1,0 +1,24 @@
+
+
+
+.home-content {
+    display: flex;
+
+}
+
+.left {
+    flex-grow: 2;
+    min-width: 70%;
+}
+
+.right {
+    flex-grow: 1;
+}
+
+
+@media (max-width: 900px) {
+    .home-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
