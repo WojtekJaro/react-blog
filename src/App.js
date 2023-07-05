@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage'
 import PostPage from './pages/PostPage/PostPage'
 import ContactPage from './pages/ContactPage/ContactPage';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
         <Route path="/contact" element={<ContactPage/>}/>
       </Routes>
       <PostPage/>
-    
+      <Footer/>
     </BrowserRouter>
+    
   );
 }
 
