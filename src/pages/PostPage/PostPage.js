@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import MainTemplate from "../../templates/MainTemplate";
 
 const PostPage = () => {
   return (
-    <div>PostPage</div>
-  )
-}
+    <MainTemplate>
+      <div>PostPage</div>
+    </MainTemplate>
+  );
+};
 
-export default PostPage
+export default PostPage;
