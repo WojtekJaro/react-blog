@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
+import MainTemplate from "../../templates/MainTemplate";
 import './PostPage.css'
+
 const PostPage = () => {
-  
   return (
-    <div className="post">
+    <MainTemplate>
+         <div className="post">
       <img src="https://cdn.pixabay.com/photo/2023/06/28/12/43/flower-8094368_1280.jpg" alt="" />
       <div className="text">
       <h2>Sportowe podsumowanie 2022 – kto jest najlepszym sportowcem?</h2>
@@ -12,7 +14,8 @@ const PostPage = () => {
       <button>Więcej</button>
       </div>
     </div>
-  )
-}
+    </MainTemplate>
+  );
+};
 
-export default PostPage
+export default PostPage;

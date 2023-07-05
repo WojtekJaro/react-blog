@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import MainTemplate from "../../templates/MainTemplate";
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
-  )
-}
+    <MainTemplate>
+      <div>HomePage</div>
+    </MainTemplate>
+  );
+};
 
-export default HomePage
+export default HomePage;
