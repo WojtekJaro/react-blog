@@ -17,7 +17,9 @@ const PostPage = () => {
        </div>
        <div className="postpage">
        <img src={`https://picsum.photos/id/${item.image}/400/600`} alt=""/>
-       <p>{item.content}</p>
+
+        <div className="post-html" dangerouslySetInnerHTML={{__html:item.content}}/>
+     
        </div>
        
     </MainTemplate>

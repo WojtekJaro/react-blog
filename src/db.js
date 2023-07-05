@@ -9,7 +9,10 @@ export const posts = [
       "Będziemy świadkami bardzo ciekawego transferu, który może rozgrzać kibiców polskiej Ekstraklasy?",
     content: `
           <strong>Będziemy świadkami bardzo ciekawego transferu, który może rozgrzać kibiców polskiej Ekstraklasy? Według informacji Tomasza Włodarczyka z portalu "meczyki.pl", jeden z klubów polskiej ligi bardzo zabiega o pozyskanie Iona Nicolăescu, a więc gracza, który pogrążył reprezentację Polski w meczu eliminacji Euro przeciwko Mołdawii. Będziemy świadkami wielkiego transferu?</strong>
+          <strong>drugi strong</strong>
+          <strong>trzeci strong</strong>
           <p>
+          <hr>
           Jak dowiedział się Włodarczyk, wielkie zainteresowanie graczem Beitaru Jerozolima wyraża Raków Częstochowa. Klub już niebawem przystąpi do eliminacji piłkarskiej Ligi Mistrzów, to też potrzebuje wzmocnień w ataku. Mimo że do drużyny dołączył już Łukasz Zwoliński, który wystepował w Lechii Gdańsk, tak zdobywca dwóch bramek przeciwko Polsce zdaje się łakomym kąskiem dla polskich klubów. O Mołdawianina miało pytać już Zagłębie Lubin, jednak przedstawiciele "Miedziowych" mieli się nie dogadać z przedstawicielami izraelskiej ekstraklasy. W poprzednim sezonie  Nicolăescu zdobył dla Beitara 18 bramek w 32 meczach.
           </p>
         `,

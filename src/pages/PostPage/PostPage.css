@@ -16,8 +16,17 @@
 }
 
 .postpage img {
-    margin: 20px 5px+;
+    margin: 20px 5px;
 }
 .postpage p {
 padding: 0 25px;
+}
+
+
+.post-html strong {
+	display: block;
+}
+
+.post-html strong:nth-of-type(2) {
+	color: red;
 }
