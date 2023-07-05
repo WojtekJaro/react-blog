@@ -1,1 +1,23 @@
+.post-name {
+    padding: 20px 0;
+}
+.post-name h1 {
+    margin: 20px 0;
+}
 
+.post-name h5 {
+    font-weight: normal;
+}
+
+.postpage {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0;
+}
+
+.postpage img {
+    margin: 20px 5px+;
+}
+.postpage p {
+padding: 0 25px;
+}
