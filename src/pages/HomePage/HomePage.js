@@ -4,11 +4,14 @@ import Post from "../../components/Post/Post";
 import About from "../../components/About/About";
 import './HomePage.css';
 import { posts } from "../../db";
+import Banner from "../../components/Banner/Banner";
 
 const HomePage = () => {
   return (
     <MainTemplate>
-      <div>HomePage</div>
+      <Banner/>
+
+      <hr/>
 
       <div className="home-content">
         <div className="left">
