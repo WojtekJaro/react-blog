@@ -1,6 +1,7 @@
 import React from 'react';
 import './MainTemplate.css';
 import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer'
 
 const MainTemplate = ({children}) => {
   return (
@@ -8,7 +9,8 @@ const MainTemplate = ({children}) => {
         <Header/>
         <div className='page-content'>
            {children}
-        </div>    
+        </div>  
+        <Footer/>  
     </div>
   )
 }
