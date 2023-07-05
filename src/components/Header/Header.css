@@ -6,6 +6,7 @@
     position: fixed;
     width: 100%;
     left: 0;
+    top: 0;
     z-index: 1000;
 }
 
@@ -32,4 +33,6 @@
 .header-wrapper a {
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(35, 35, 35);
 }

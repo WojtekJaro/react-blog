@@ -2,5 +2,9 @@
 .page-container {
     max-width: 1400px;
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto; 
+}
+
+.page-content {
+    margin-top: 80px;
 }
