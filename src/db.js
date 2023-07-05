@@ -17,7 +17,7 @@ export const posts = [
   {
     id: 1,
     title: "Mecz Polska-Czechy",
-    image: 6,
+    image: 8,
     author: "Wojciech",
     date: "15 czerwiec 2023",
     short: "Lanie w Pradze na otwarcie eliminacji. Nieudany debiut Santosa",

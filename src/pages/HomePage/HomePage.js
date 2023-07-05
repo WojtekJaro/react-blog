@@ -3,6 +3,7 @@ import MainTemplate from "../../templates/MainTemplate";
 import Post from "../../components/Post/Post";
 import About from "../../components/About/About";
 import './HomePage.css';
+import { posts } from "../../db";
 
 const HomePage = () => {
   return (
@@ -11,9 +12,7 @@ const HomePage = () => {
 
       <div className="home-content">
         <div className="left">
-           <Post/>
-           <Post/>
-           <Post/>
+            {posts.map(post => <Post key={post.id} item={post}/>)}
         </div>
         <div className="right">
             <About/>

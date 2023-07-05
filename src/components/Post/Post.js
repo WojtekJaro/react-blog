@@ -1,22 +1,31 @@
 import React from "react";
 import "./Post.css"
+import { useNavigate } from "react-router-dom";
 
 const Post = ({item}) => {
+
+  const navigate = useNavigate();
+ 
+
+  const slug = item.title.replaceAll(" ", "-").toLowerCase();
+
+  const handleNavigate = () => {
+     navigate(`/blog/${slug}`, {state:{item}})
+  }
+
   return (
     <div className="post">
       <img
-        src="https://cdn.pixabay.com/photo/2023/06/28/12/43/flower-8094368_1280.jpg"
+        src={`https://picsum.photos/id/${item.image}/400/600`}
         alt=""
       />
       <div className="text">
-        <h2>Sportowe podsumowanie 2022 – kto jest najlepszym sportowcem?</h2>
-        <h6>KUBA 22 STYCZNIA, 2023</h6>
+        <h2>{item.title}</h2>
+        <h6>{item.author.toUpperCase()} {item.date.toUpperCase()}</h6>
         <p>
-          Ranking to wyjątkowa rzecz. Warto poznać go i zainteresować się kto
-          jest najlepszym sportowcem. W 2022 roku co najmniej kilku sportowców
-          było bardzo ważnych....
+          {item.short}
         </p>
-        <button>Więcej</button>
+        <button onClick={handleNavigate}>Więcej</button>
       </div>
     </div>
   );
